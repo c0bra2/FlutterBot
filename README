@@ -1,0 +1,73 @@
+**************************************
+* FlutterBot v1.1
+* author: applebloom (2012)
+* email:  applebl00m@hotmail.com
+**************************************
+
+
+Discription:
+	FlutterBot is a simple GUI based Multiplatform irc bot, it should run on 
+any platform with a java 7.0 runtime environment. This bot assumes that you gave 
+it +a privledges in the channel. The source code for this bot is included with the
+program ,and open source; however it is protected under the GNU GENERAL PUBLIC 
+LICENSE. A copy of the GPL should have been included along with the source code 
+and executable jar file.
+
+Instructions:
+Find out how to execute a jar file on your system, in windows you should be able
+double click on it, once the program is started a window will appear with 3 areas 
+for you to enter the IRC information and one area for you to enter the botowner, 
+which is the only IRC user nick which will be able to send the bot commands
+once it's connected to IRC.
+
+The first text field allows you to enter the name the bot will use in IRC
+
+The second field specifies the IRC network
+
+The third field is the channel that the bot will initially join
+
+The fourth field is the botowner field, replace it with your IRC nick
+
+After you have entered the above information correctly, you can continue then 
+connect to the IRC network by clicking the connect button, once connected to
+an IRC server you will be able to send the bots commands over IRC.
+
+**************
+*IRC commands*
+**************
+
+!op
+gives you +a and +o in the channel if you're in the botowner list
+
+!blacklist
+has an associated add , show, and remove function, so you can add or remove 
+a nickname from the list, once on the list a nick name will be kicked
+and automaticallybe banned and kicked from the channel when they try to rejoin.
+example: !blacklist add rockho
+example: !blacklist show
+
+!shitlist 
+also has add, show, and remove functions. once a nick name is added to this
+list that user will be automatically kicked and -a -o +v MODE changed whenever
+they join the channel. 
+
+!botowners
+also has add, show, and remove functions. once added to this list
+a nick name will be able to issue the bot commands.
+example: !botowners add applebloom
+example: !botowners show
+
+!lockdown
+in this mode, everyone is automatically -a -o +v MODE changed when they join the 
+channel. this mode is goodfor when faggots are trying to take over a channel or 
+some shit, who knows (you'll find a use for it if you try hard enough).
+
+!unlock
+takes the bot off lockdown mode.
+!quit
+tells the bot to disconnect from IRC
+
+
+
+
+
