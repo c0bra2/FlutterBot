@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 
 /**
-	@author applebloom
+	@author c0bra2 (Jacob Mason)
 	this class represents an irc bot framework.
 	this code is protected under GPL
 */

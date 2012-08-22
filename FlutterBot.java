@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 /**
-	@author applebloom
+	@author c0bra2 (Jacob Mason)
 	this code is protected under GPL
 */
 public class FlutterBot 
